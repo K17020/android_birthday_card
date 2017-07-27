@@ -6,9 +6,10 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:src='@drawable/Kay_Baby_Photo_001'
+        android:src='@drawable/kay_baby_photo_001'
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:id='@+id/annoucement_text_view'

@@ -6,6 +6,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:src='@drawable/Kay_Baby_Photo_001'
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -14,8 +15,11 @@
         android:text="It's a Girl!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
         android:textSize="30sp"
+        android:textColor='#FFFFFF'
+        android:background="#29B6F6"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -23,8 +27,11 @@
         android:text="K'ee-xach K'ay-ris Rae Bommelyn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="32dp"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
         android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="#29B6F6"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
